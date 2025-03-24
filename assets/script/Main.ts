@@ -27,10 +27,11 @@ export class Main extends Root {
     }
 
     protected run() {
-        smc.initialize = ecs.getEntity<Initialize>(Initialize);
-        if (JSB) {
-            oops.gui.toast("热更新后新程序的提示");
-        }
+        // smc.initialize = ecs.getEntity<Initialize>(Initialize);
+        // if (JSB) {
+        //     oops.gui.toast("热更新后新程序的提示");
+        // }
+        
     }
 
     protected initGui() {
@@ -38,7 +39,7 @@ export class Main extends Root {
     }
 
     protected async initEcsSystem() {
-        oops.ecs.add(new EcsPositionSystem())
+        // oops.ecs.add(new EcsPositionSystem())
         // oops.ecs.add(new EcsAccountSystem());
         // oops.ecs.add(new EcsRoleSystem());
         // oops.ecs.add(new EcsInitializeSystem());
