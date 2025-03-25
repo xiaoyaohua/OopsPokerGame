@@ -1,0 +1,83 @@
+
+paodekuai.png
+size: 854,370
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 6
+  size: 5, 1
+  orig: 5, 1
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 490, 178
+  size: 164, 190
+  orig: 164, 190
+  offset: 0, 0
+  index: -1
+A1
+  rotate: true
+  xy: 418, 3
+  size: 143, 160
+  orig: 143, 160
+  offset: 0, 0
+  index: -1
+A2
+  rotate: false
+  xy: 656, 185
+  size: 139, 183
+  orig: 139, 183
+  offset: 0, 0
+  index: -1
+A3
+  rotate: false
+  xy: 580, 2
+  size: 127, 174
+  orig: 127, 174
+  offset: 0, 0
+  index: -1
+d
+  rotate: true
+  xy: 2, 13
+  size: 355, 414
+  orig: 355, 414
+  offset: 0, 0
+  index: -1
+d1
+  rotate: false
+  xy: 797, 322
+  size: 55, 46
+  orig: 55, 46
+  offset: 0, 0
+  index: -1
+d2
+  rotate: true
+  xy: 709, 14
+  size: 169, 142
+  orig: 169, 142
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 797, 281
+  size: 42, 39
+  orig: 42, 39
+  offset: 0, 0
+  index: -1
+gg
+  rotate: false
+  xy: 797, 247
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+zi
+  rotate: true
+  xy: 418, 148
+  size: 220, 70
+  orig: 220, 70
+  offset: 0, 0
+  index: -1

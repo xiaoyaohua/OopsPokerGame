@@ -9,7 +9,7 @@ import { DEBUG, JSB } from 'cc/env';
 import { oops } from '../../extensions/oops-plugin-framework/assets/core/Oops';
 import { Root } from '../../extensions/oops-plugin-framework/assets/core/Root';
 import { ecs } from '../../extensions/oops-plugin-framework/assets/libs/ecs/ECS';
-import { UIConfigData } from './game/common/config/GameUIConfig';
+import { UIConfigData, UIID } from './game/common/config/GameUIConfig';
 import { smc } from './game/common/ecs/SingletonModuleComp';
 import { EcsPositionSystem } from './game/common/ecs/position/EcsPositionSystem';
 import { Initialize } from './game/initialize/Initialize';
@@ -27,6 +27,8 @@ export class Main extends Root {
     }
 
     protected run() {
+        oops.gui.open(UIID.Login);
+        
         // smc.initialize = ecs.getEntity<Initialize>(Initialize);
         // if (JSB) {
         //     oops.gui.toast("热更新后新程序的提示");

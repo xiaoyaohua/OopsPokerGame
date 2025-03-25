@@ -18,6 +18,10 @@ export enum UIID {
     Demo,
     /** 角色信息 */
     Demo_Role_Info,
+
+    Login,
+    Hall,
+
 }
 
 /** 打开界面方式的配置数据 */
@@ -26,5 +30,7 @@ export var UIConfigData: { [key: number]: UIConfig } = {
     [UIID.Alert]: { layer: LayerType.Dialog, prefab: "common/prefab/alert", mask: true },
     [UIID.Confirm]: { layer: LayerType.Dialog, prefab: "common/prefab/confirm", mask: true },
     [UIID.Demo]: { layer: LayerType.UI, prefab: "gui/prefab/demo" },
-    [UIID.Demo_Role_Info]: { layer: LayerType.UI, prefab: "gui/prefab/role_info" }
+    [UIID.Demo_Role_Info]: { layer: LayerType.UI, prefab: "gui/prefab/role_info" },
+    [UIID.Login]: { layer: LayerType.UI, prefab: "prefab/loginNode", bundle: "login" },
+    [UIID.Hall]: { layer: LayerType.UI, prefab: "prefab/hallNode", bundle: "hall" }
 }
